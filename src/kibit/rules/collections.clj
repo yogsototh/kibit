@@ -14,8 +14,9 @@
   [(update-in ?coll ?keys assoc ?val) (assoc-in ?coll ?keys ?val)]
 
   ;; empty?
-  [(not (empty? ?x)) (seq ?x)]
-  [(when-not (empty? ?x) . ?y) (when (seq ?x) . ?y)]
+  ;; THESE RULES ARE FALSE!!!!!!!!!!
+  ;; [(not (empty? ?x)) (seq ?x)]
+  ;; [(when-not (empty? ?x) . ?y) (when (seq ?x) . ?y)]
 
   ;; set
   [(into #{} ?coll) (set ?coll)]
