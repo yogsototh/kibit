@@ -33,7 +33,7 @@ it will suggest using `when` instead:
 
 ## Usage
 
-Add `[yogsototh/lein-kibit "0.1.4"]` to your `:plugins` vector in your `:user`
+Add `[yogsototh/lein-kibit "0.1.5"]` to your `:plugins` vector in your `:user`
 profile. Then you can run
 
     $ lein kibit
