@@ -131,12 +131,15 @@
   (. Thread (sleep (read-string "2000")))
   (. Thread sleep (read-string "2000"))
 
-  (-> x f) ;; (f x)
-  (-> x (f a b)) ;; (f x a b)
-  (-> x (f)) ;; (f x)
+  ;; -- I like (-> x f)
+  ;;
+  ;; (-> x f) ;; (f x)
+  ;; (-> x (f a b)) ;; (f x a b)
+  ;; (-> x (f)) ;; (f x)
 
-  (->> x f) ;; (f x)
-  (->> x (f a b)) ;; (f a b x)
-  (->> x (f)) ;; (f x)
+  ;; -- And I like (->> x f)
+  ;; (->> x f) ;; (f x)
+  ;; (->> x (f a b)) ;; (f a b x)
+  ;; (->> x (f)) ;; (f x)
   
   )
