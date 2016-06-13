@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file. This change
 ### Additions
 * Enabled Emacs' next error function to go to next Kibit suggestion. See the updated code in the README for the change.
 
+## [0.1.5] / 2016-06-13
+* Removed `(not (empty? x))` to `(seq x)` rule as they are not equivalent.
+* Removed threading rules (`(-> x f)` and `(->> x f)` are fine).
 
 ## [0.1.2] / 2015-04-21
 ### Additions
