@@ -1,5 +1,10 @@
-[![Build Status](https://travis-ci.org/jonase/kibit.svg?branch=master)](https://travis-ci.org/jonase/kibit)
-[![Dependencies Status](http://jarkeeper.com/jonase/kibit/status.svg)](http://jarkeeper.com/jonase/kibit)
+[![Build Status](https://travis-ci.org/yogsototh/kibit.svg?branch=master)](https://travis-ci.org/yogsototh/kibit)
+[![Dependencies Status](http://jarkeeper.com/yogsototh/kibit/status.svg)](http://jarkeeper.com/yogsototh/kibit)
+
+This is a fork wich remove the rules to simplify Threadings.
+
+I don't see anything wrong when using `(-> x f)` instead of `(f x)`.
+In generally we use the threading macro when `f` is big.
 
 # kibit
 
@@ -25,7 +30,7 @@ it will suggest using `when` instead:
 
 ## Usage
 
-Add `[lein-kibit "0.1.2"]` to your `:plugins` vector in your `:user`
+Add `[yogsototh/lein-kibit "0.1.4"]` to your `:plugins` vector in your `:user`
 profile. Then you can run
 
     $ lein kibit
