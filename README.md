@@ -6,8 +6,10 @@ This is a fork wich remove the rules to simplify Threadings.
 I don't see anything wrong when using `(-> x f)` instead of `(f x)`.
 In generally we use the threading macro when `f` is big.
 
-And also remove the rule `(not (empty? x))` → `(seq x)` 
-*WHICH IS COMPLETELY FALSE*.
+And also remove the rule `(not (empty? x))` → `(seq x)` because this is false.
+
+Adding the rule `(vec (filter ?pred ?coll))` → `(filterv ?pred ?coll)`.
+
 
 # kibit
 
