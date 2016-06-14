@@ -23,6 +23,7 @@
   [(apply concat (map ?x . ?y)) (mapcat ?x . ?y)]
 
   ;; filter
+  [(vec (filter ?pred ?coll)) (filterv ?pred ?coll)]
   [(filter (complement ?pred) ?coll) (remove ?pred ?coll)]
   [(filter seq ?coll) (remove empty? ?coll)]
   [(filter (fn* [?x] (not (?pred ?x))) ?coll) (remove ?pred ?coll)]
