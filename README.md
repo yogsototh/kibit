@@ -1,3 +1,12 @@
+> This project has two homes.
+> It is ok to work in github, still, for a better decentralized web
+> please consider contributing (issues, PR, etc...) throught:
+>
+> https://gitlab.esy.fun/yogsototh/kibit
+
+---
+
+
 [![Build Status](https://travis-ci.org/yogsototh/kibit.svg?branch=master)](https://travis-ci.org/yogsototh/kibit)
 [![Dependencies Status](http://jarkeeper.com/yogsototh/kibit/status.svg)](http://jarkeeper.com/yogsototh/kibit)
 
